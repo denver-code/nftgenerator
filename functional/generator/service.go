@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"hash/fnv"
 	"image/color"
-	"nft/internal/domain"
+	"nft/functional/domain"
 	"os"
 	"sort"
 	"sync"

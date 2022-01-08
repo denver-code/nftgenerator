@@ -5,7 +5,7 @@ import (
 	"image"
 	"image/draw"
 	"image/png"
-	"nft/internal/domain"
+	"nft/functional/domain"
 	"sort"
 )
 

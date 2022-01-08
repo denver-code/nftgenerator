@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"nft/internal/domain"
+	"nft/functional/domain"
 	"os"
 	"path/filepath"
 	"strings"

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"math/rand"
-	"nft/internal/domain"
+	"nft/functional/domain"
 	"os"
 	"path/filepath"
 	"strings"

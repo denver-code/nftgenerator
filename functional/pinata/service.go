@@ -8,7 +8,7 @@ import (
 	"io/ioutil"
 	"mime/multipart"
 	"net/http"
-	"nft/internal/domain"
+	"nft/functional/domain"
 	"os"
 	"path/filepath"
 	"strings"

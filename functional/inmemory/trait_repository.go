@@ -3,7 +3,7 @@ package inmemory
 import (
 	"errors"
 	"fmt"
-	"nft/internal/domain"
+	"nft/functional/domain"
 
 	"github.com/google/uuid"
 )
