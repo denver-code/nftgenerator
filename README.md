@@ -10,7 +10,7 @@ This repository provides various utilities to help you build your NFT collection
 ## How to generate images
 
 Run the following command:
-`go cmd/main.go --generated-image-input=${IMG_DIR} --generated-image-output=${OUTPUT_DIR} --generated-image-length=2048 --generated-image-width=2048 --generated-image-number=100 --generate`
+`go main.go --generated-image-input=${IMG_DIR} --generated-image-output=${OUTPUT_DIR} --generated-image-length=2048 --generated-image-width=2048 --generated-image-number=100 --generate`
 
 ### Flags
 - generated-image-input - image input directory where the source layers are located (default is input-dir)
@@ -64,7 +64,7 @@ Let's make some traits more rare than others. Then the directory of input images
 ## How to upload images to IPFS/Pinata?
 
 Run the following command:
-`go cmd/main.go --ipfs-input=${INPUT_DIRECTORY} --ipfs-output=${IPFS_OUTPUT_DIRECTORY} --ipfs-api-key=${PINATA_KEY} --ipfs-secret-key=${PINATA_SECRET} --ipfs-upload`
+`go main.go --ipfs-input=${INPUT_DIRECTORY} --ipfs-output=${IPFS_OUTPUT_DIRECTORY} --ipfs-api-key=${PINATA_KEY} --ipfs-secret-key=${PINATA_SECRET} --ipfs-upload`
 
 ### Flags
 - ipfs-input - input directory / images to upload
@@ -74,4 +74,4 @@ Run the following command:
 
 ## Print statistics
 Run the following command to print statistics:
-`./nft --generated-image-output=${IMG_DIR} --ipfs-output=${IPFS_OUTPUT_DIRECTORY} --info`
+`go main.go --generated-image-output=${IMG_DIR} --ipfs-output=${IPFS_OUTPUT_DIRECTORY} --info`
