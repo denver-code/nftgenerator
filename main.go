@@ -3,13 +3,13 @@ package main
 import (
 	"flag"
 	"fmt"
-	"nft/internal/combiner"
-	"nft/internal/domain"
-	"nft/internal/generator"
-	"nft/internal/helpers"
-	"nft/internal/inmemory"
-	"nft/internal/pinata"
-	"nft/internal/trait"
+	"nft/functional/combiner"
+	"nft/functional/domain"
+	"nft/functional/generator"
+	"nft/functional/helpers"
+	"nft/functional/inmemory"
+	"nft/functional/pinata"
+	"nft/functional/trait"
 	"os"
 )
 
