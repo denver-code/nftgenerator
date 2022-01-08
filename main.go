@@ -38,7 +38,7 @@ func main() {
 	flag.Parse()
 
 	if *generate {
-		fmt.Println("Generating images ...")
+		fmt.Println("Start generating images ...")
 		traitService := trait.NewBasicTraitService(
 			inmemory.NewGroupRepository(),
 			inmemory.NewTraitRepository(),
