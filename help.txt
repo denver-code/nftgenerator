@@ -1,0 +1,1 @@
+go run cmd/main.go --generated-image-length=3000 --generated-image-width=3000 --generated-image-number=5000 --generate
