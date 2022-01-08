@@ -1,3 +1,5 @@
+## Attention! A powerful computer may be required! 
+
 ## About 
 This repository provides various utilities to help you build your NFT collection:
 - Generate images from source layers / Merge layers in the specified order
